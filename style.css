@@ -88,3 +88,28 @@ button {
     color: #ffffff;
     margin-left: 10px;
 }
+
+.date {
+    width: 120px;
+}
+
+.distance {
+    width: 120px;
+}
+
+.salary {
+    width: 135px;
+}
+
+.job-type {
+    width: 125px;
+}
+
+.exp-type {
+    width: 100px;
+}
+
+.filters {
+    margin-top: 30px;
+    text-align: center;
+}
