@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #dcdcdc;
+    height: 100vh;
+    font-family: Aleo;
+}
+
+.navigation {
+    background-color: #f8f8ff;
+    font-size: 24px;
+}
+
+header {
+    cursor: pointer;
+}
+
+header:hover {
+    color: #4b0082;
+}
+
+.portals {
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+li a {
+   color: #000000;
+   position: relative;
+   text-decoration: none;
+}
+
+li a:hover {
+    color: #000000;
+}
+
+li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+li a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.search {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.job {
+    width: 350px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.city {
+    width: 350px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+label {
+    margin-left: 20px;
+}
+
+button {
+    padding: 10px 10px;
+    width: 110px;
+    background-color: #00ffff;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.filt-btn {
+    background-color: darkslategrey;
+    color: #000000;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.btns {
+    display: flex;
+}
